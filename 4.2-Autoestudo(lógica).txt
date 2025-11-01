@@ -1,0 +1,10 @@
+            //AutoEstudo14
+
+let num1 = parseFloat(prompt("digite um número"));
+let num2 = parseFloat(prompt("digite um número para somar"));
+
+let soma = num1 + num2;
+
+console.log(
+    `sua soma é ${soma}!!`
+);

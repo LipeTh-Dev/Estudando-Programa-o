@@ -1,0 +1,4 @@
+            //AutoEstudo13
+
+let nome = prompt ("qual é seu nome ?");
+console.log (`Seja bem vindo ${nome}`)
