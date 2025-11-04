@@ -1,0 +1,6 @@
+            //AutoEstudo16
+
+let numero = parseInt(prompt("Digite um número"));
+let dobrar = numero * 2;
+
+alert(`o dobro de ${numero}, é ${dobrar}`);

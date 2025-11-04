@@ -1,0 +1,7 @@
+            //AutoEstudo18
+
+let celsius = parseFloat(prompt("está quantos graus ?"));
+
+fahrenheit = celsius *9/5 + 32;
+
+console.log(`Está ${fahrenheit} fahrenheit hoje.`);
