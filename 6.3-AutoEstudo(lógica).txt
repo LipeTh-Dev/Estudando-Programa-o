@@ -1,0 +1,9 @@
+            //AutoEstudo21
+
+let nomes = [];
+
+for (let i = 1; i <= 3; i++){
+    let pergunta = prompt(`digite o nome ${i}:`);
+    nomes.push (pergunta);
+}
+console.log(nomes);
