@@ -1,0 +1,12 @@
+            //AutoEstudo24
+
+let maior = -Infinity
+
+for (let i = 1; i <= 5; i++ ){
+    let num = parseInt(prompt(`digite um número ${i}`));
+
+    if (num > maior){
+        maior = num;
+    }
+}
+console.log (`o maior número digitado foi ${maior}`);

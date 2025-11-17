@@ -1,0 +1,13 @@
+            //AutoEstudo22
+
+let pares = 0
+
+for (let i = 1 ; i <= 5 ; i++){
+    let num = parseInt(prompt(`Digite o número ${i}:`));
+
+    if (num % 2 == 0){
+        pares ++ 
+    }
+}
+
+console.log (`voce digitou ${pares} números pares`);
