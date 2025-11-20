@@ -1,0 +1,13 @@
+            //AutoEstudo25
+
+let soma = 0
+
+for (let i = 1; i <= 5; i++){
+
+    let num = parseInt(prompt(`digite os números para descobrir a média, número ${i}`));
+
+    soma += num;
+}
+let media = soma / 5;
+
+console.log(`a média é ${media}`);
