@@ -1,0 +1,21 @@
+        //Desafio Alura codigo C #1
+
+#include <stdio.h>
+
+int main(){
+
+    printf("digite duas variaveis pra saber a soma\n");
+
+    int numeroX;
+    int numeroY;
+    int resultado;
+
+    printf("digite o numero X\n");
+    scanf("%d", &numeroX);
+    printf("digite o numero Y\n");
+    scanf("%d", &numeroY);
+
+    resultado = numeroX + numeroY;
+
+    printf("O resultado da soma e %d\n", resultado);
+}
